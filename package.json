@@ -8,11 +8,13 @@
     "dev": "node tools/serve.mjs",
     "start": "node tools/serve.mjs",
     "build": "node tools/build.mjs",
+    "bundle": "node tools/bundle.mjs",
     "check": "node tools/check.mjs",
     "test": "playwright test",
-    "templates": "node tools/export-pages.mjs"
+    "templates": "npm run bundle && node tools/export-pages.mjs"
   },
   "devDependencies": {
+    "esbuild": "^0.28.2",
     "@playwright/test": "^1.63.0"
   }
 }

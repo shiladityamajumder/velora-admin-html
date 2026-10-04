@@ -1,6 +1,6 @@
 import { createElement, Fragment } from '../../runtime/dom.js';
 import { Link as Link } from "../../runtime/navigation.js";
-import { useRouter } from "../../runtime/navigation.js";
+import { useRouter, routeSearch } from "../../runtime/navigation.js";
 import { useState, useSyncExternalStore } from "../../runtime/dom.js";
 import { ArrowRight, CheckCircle2 } from "../../vendor/icons.js";
 import { Button } from "../primitives.js";
@@ -47,7 +47,7 @@ export function AuthForm({
   const href = (target) => `/auth/${authSlug(target, design)}`;
   const openWorkspace = (user) => {
     auth.login(user);
-    const next = new URLSearchParams(window.location.search).get("next");
+    const next = new URLSearchParams(routeSearch()).get("next");
     router.push(
       next && /^\/(?![\/\\])/.test(next) ? next : homeForRole(user.role)
     );

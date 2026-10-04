@@ -1,5 +1,7 @@
 /** Apply saved appearance before the first paint. */
 (() => {
+  // Resolve from this script, never from the depth of the current HTML page.
+  window.veloraSiteURL = new URL('../', document.currentScript.src).href;
   try {
     const root=document.documentElement, mode=localStorage.getItem('nexa-theme') || 'system';
     const theme=mode==='system'?(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'):mode;

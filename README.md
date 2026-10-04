@@ -4,14 +4,18 @@ A standalone sibling of `velora-admin-nextjs`, with the current Velora screens c
 
 ## Run locally
 
-With Node.js installed:
+Open **index.html** directly in your browser. You can also open any nested page such as `marketing/coupons/index.html`. Styles, fonts, sidebar controls and workspace interactions load from the project folder without a server or installation. Keep the `js/`, `css/` and `fonts/` folders alongside the pages.
+
+Local navigation stores the current route after `#` in the URL, so browser back/forward, copied links, reloads and dynamic record pages work from disk. Demo sign-in and role permissions still apply; sign in to access the full workspace menu.
+
+For a local HTTP preview, with Node.js installed:
 
 ```bash
 cd velora-admin-html
 npm run dev
 ```
 
-Open **http://127.0.0.1:3200/template**. No `npm install` is needed to preview or build the site. Use an HTTP server rather than double-clicking files: browser ES modules require HTTP access.
+Open **http://127.0.0.1:3200/template**. No `npm install` is needed to preview the site. HTTP previews retain the original clean route URLs.
 
 ```bash
 npm run dev -- --host 0.0.0.0 --port 3200
@@ -36,6 +40,7 @@ Demo password: `NexaDemo123!`. Verification code: `123456`. Accounts: `superadmi
 | `*/index.html` | Complete static page markup, available before JavaScript starts |
 | `css/velora.css` | Shared styles, utility classes, tokens and font declarations |
 | `js/app.js` | Browser route selection |
+| `js/app.bundle.js` | Generated browser bundle, usable through HTTP or directly from disk |
 | `js/components/`, `js/features/` | Editable plain JavaScript templates and interactions |
 | `js/config/` | Branding, appearance defaults, modules, navigation and authentication configuration |
 | `js/services/`, `js/lib/` | Demo persistence, operations and reusable logic |
@@ -44,22 +49,23 @@ Demo password: `NexaDemo123!`. Verification code: `123456`. Accounts: `superadmi
 | `js/vendor/` | Prebundled chart, icon, table, date and validation helpers; no CDN needed |
 | `routes.json` | Complete static page inventory |
 
-JavaScript enhances the templates and updates the DOM as preferences and demo records change. Edit the matching JavaScript template to change both the initial page and its interactive states. After changing shared templates, regenerate the HTML using `npm run templates` while the preview server is running. That export command requires the optional Playwright development dependency and Chromium.
+JavaScript enhances the templates and updates the DOM as preferences and demo records change. Edit the matching JavaScript template, then run `npm run bundle` to update the browser bundle. After changing shared templates, regenerate the initial HTML using `npm run templates` while the preview server is running. Development commands require `npm install`; HTML export also requires Playwright Chromium. Exported pages keep portable asset and link paths.
 
 The original demo access rules remain: interactive workspace pages ask anonymous visitors to sign in. The static markup contains synthetic previews. Demo data is isolated by browser origin, so this project's records do not modify the original application's records when served on a separate port.
 
 ## Build and host
 
 ```bash
+npm install
 npm run check
 npm run build
 ```
 
-Upload `dist/` to a static host. There is no application compilation or framework server. Serve at the domain root and configure unknown routes to return `/index.html`, which supports direct visits and reloads for dynamically created record URLs. `_redirects` (compatible static hosts) and `.htaccess` (Apache with `mod_rewrite`) are included. Existing static route directories work on ordinary static servers. For an Nginx host use `try_files $uri $uri/ /index.html;`.
+The build refreshes the browser bundle and copies the portable pages into `dist/`. Upload `dist/` to a static host; no framework server is required. Serve at the domain root and configure unknown routes to return `/index.html`, which supports direct visits and reloads for dynamically created record URLs. `_redirects` (compatible static hosts) and `.htaccess` (Apache with `mod_rewrite`) are included. Existing static route directories work on ordinary static servers. For an Nginx host use `try_files $uri $uri/ /index.html;`.
 
 ## Browser verification
 
-Only tests and HTML regeneration need development dependencies:
+Only development tasks (bundling, building, tests and HTML regeneration) need dependencies:
 
 ```bash
 npm install

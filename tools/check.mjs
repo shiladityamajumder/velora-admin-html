@@ -10,6 +10,8 @@ for(const file of await walk(path.join(root,'js'))) {
   const source=await readFile(file,'utf8');
   const syntax=spawnSync(process.execPath,['--check',file],{encoding:'utf8'});
   if(syntax.status) throw new Error(syntax.stderr);
+  // The generated bundle includes downloadable code examples as string data.
+  if(file.endsWith('/app.bundle.js')) { checked++; continue; }
   for(const match of source.matchAll(/(?:from\s+|import\s*\()(['"])([^'"\n]+)\1/g)) {
     if(!match[2].startsWith('.')) continue;
     const imported=path.resolve(path.dirname(file),match[2]);
@@ -18,14 +20,17 @@ for(const file of await walk(path.join(root,'js'))) {
   checked++;
 }
 const routes=JSON.parse(await readFile(path.join(root,'routes.json'),'utf8'));
-for(const route of routes) {
- const file=path.join(root,route.slice(1),'index.html');
+for(const route of ['/', ...routes, '/404.html']) {
+ const file=route === '/404.html' ? path.join(root,'404.html') : path.join(root,route.slice(1),'index.html');
  const html=await readFile(file,'utf8');
- if(!html.includes('<html') || !html.includes('id="app"') || !html.includes('js/app.js')) throw new Error(`Invalid HTML: ${route}`);
+ if(!html.includes('<html') || !html.includes('id="app"') || !html.includes('js/app.bundle.js')) throw new Error(`Invalid HTML: ${route}`);
  const base=path.dirname(file);
- for(const match of html.matchAll(/(?:src|href)="([^"#]+)"/g)) {
-  if(/^(?:https?:|data:|blob:|\/|mailto:|tel:)/.test(match[1])||!match[1].includes('/css/')&&!match[1].includes('/js/')) continue;
-  if(!(await stat(path.resolve(base,match[1])).catch(()=>null))) throw new Error(`Missing HTML asset: ${route} ${match[1]}`);
+ const markup=html.replace(/(<script\b[^>]*>)[\s\S]*?<\/script>/g, '$1</script>');
+ for(const match of markup.matchAll(/(?:src|href)="([^"#]+)"/g)) {
+  if(/^(?:https?:|data:|blob:|mailto:|tel:)/.test(match[1])) continue;
+  if(match[1].startsWith('/')) throw new Error(`Nonportable HTML URL: ${route} ${match[1]}`);
+  const target=match[1].split(/[?#]/)[0];
+  if(target && !(await stat(path.resolve(base,target)).catch(()=>null))) throw new Error(`Missing HTML target: ${route} ${match[1]}`);
  }
 }
-console.log(`Checked ${checked} JavaScript files and ${routes.length} HTML pages.`);
+console.log(`Checked ${checked} JavaScript files and ${routes.length + 2} HTML entries (including root and 404).`);

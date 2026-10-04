@@ -17,8 +17,7 @@ createServer(async (request, response) => {
     else if (!info && !path.extname(file)) file = await stat(file + '.html').then(() => file + '.html').catch(() => path.join(file, 'index.html'));
     let data = await readFile(file).catch(() => null);
     if (!data && !path.extname(pathname)) {
-      const depth = pathname.split('/').filter(Boolean).length;
-      data = (await readFile(path.join(root, 'index.html'), 'utf8')).replaceAll('href="./css/', `href="${'../'.repeat(Math.max(0,depth-1))}css/`).replaceAll('src="./js/', `src="${'../'.repeat(Math.max(0,depth-1))}js/`);
+      data = (await readFile(path.join(root, 'index.html'), 'utf8')).replaceAll('href="./css/', 'href="/css/').replaceAll('src="./js/', 'src="/js/');
       file = path.join(root, 'index.html');
     }
     if (!data) { response.writeHead(404); response.end('Not found'); return; }
