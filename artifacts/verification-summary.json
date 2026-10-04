@@ -1,0 +1,62 @@
+{
+  "sourceIntegrity": {
+    "checkedFiles": 203,
+    "changed": [],
+    "added": [],
+    "unchanged": true
+  },
+  "htmlPages": 307,
+  "routeBrowserErrors": 0,
+  "javascriptFilesChecked": 137,
+  "browserTests": {
+    "startTime": "2026-10-04T04:18:15.935Z",
+    "duration": 70102.367,
+    "expected": 35,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "visualChecks": [
+    {
+      "route": "/template",
+      "sameDimensions": true,
+      "sameLayoutGeometry": true,
+      "sameChartPaths": true,
+      "pixelDifferencePercentAbove10": 0.0
+    },
+    {
+      "route": "/dashboard/executive",
+      "sameDimensions": true,
+      "sameLayoutGeometry": true,
+      "sameChartPaths": true,
+      "pixelDifferencePercentAbove10": 0.0
+    },
+    {
+      "route": "/dashboard/analytics",
+      "sameDimensions": true,
+      "sameLayoutGeometry": true,
+      "sameChartPaths": true,
+      "pixelDifferencePercentAbove10": 0.0
+    },
+    {
+      "route": "/library/charts/line",
+      "sameDimensions": true,
+      "sameLayoutGeometry": true,
+      "sameChartPaths": true,
+      "pixelDifferencePercentAbove10": 0.0
+    },
+    {
+      "route": "/commerce/products",
+      "sameDimensions": true,
+      "sameLayoutGeometry": true,
+      "sameChartPaths": true,
+      "pixelDifferencePercentAbove10": 0.0
+    }
+  ],
+  "runtimeDependencies": {},
+  "notes": [
+    "Native DOM renderer and prebundled browser helpers; no Next.js or React runtime.",
+    "Narrow-screen language selector capped at 90px below 360px.",
+    "Reuse snippets and icon exports use HTML and plain JavaScript."
+  ]
+}

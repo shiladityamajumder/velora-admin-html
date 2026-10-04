@@ -1,0 +1,37 @@
+[
+  {
+    "route": "/template",
+    "sameDimensions": true,
+    "sameLayoutGeometry": true,
+    "sameChartPaths": true,
+    "pixelDifferencePercentAbove10": 0.0
+  },
+  {
+    "route": "/dashboard/executive",
+    "sameDimensions": true,
+    "sameLayoutGeometry": true,
+    "sameChartPaths": true,
+    "pixelDifferencePercentAbove10": 0.0
+  },
+  {
+    "route": "/dashboard/analytics",
+    "sameDimensions": true,
+    "sameLayoutGeometry": true,
+    "sameChartPaths": true,
+    "pixelDifferencePercentAbove10": 0.0
+  },
+  {
+    "route": "/library/charts/line",
+    "sameDimensions": true,
+    "sameLayoutGeometry": true,
+    "sameChartPaths": true,
+    "pixelDifferencePercentAbove10": 0.0
+  },
+  {
+    "route": "/commerce/products",
+    "sameDimensions": true,
+    "sameLayoutGeometry": true,
+    "sameChartPaths": true,
+    "pixelDifferencePercentAbove10": 0.0
+  }
+]

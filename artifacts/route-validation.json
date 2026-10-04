@@ -1,0 +1,1537 @@
+[
+  {
+    "route": "/admin/audit",
+    "heading": "Audit Logs",
+    "errors": []
+  },
+  {
+    "route": "/admin/login-history",
+    "heading": "Login History",
+    "errors": []
+  },
+  {
+    "route": "/admin/login-history/new",
+    "heading": "Login History",
+    "errors": []
+  },
+  {
+    "route": "/admin/sessions",
+    "heading": "Sessions",
+    "errors": []
+  },
+  {
+    "route": "/admin/sessions/new",
+    "heading": "Sessions",
+    "errors": []
+  },
+  {
+    "route": "/admin/teams",
+    "heading": "Teams",
+    "errors": []
+  },
+  {
+    "route": "/admin/teams/new",
+    "heading": "Teams",
+    "errors": []
+  },
+  {
+    "route": "/admin/users",
+    "heading": "Users",
+    "errors": []
+  },
+  {
+    "route": "/admin/users/new",
+    "heading": "Users",
+    "errors": []
+  },
+  {
+    "route": "/apps/calendar",
+    "heading": "Calendar",
+    "errors": []
+  },
+  {
+    "route": "/apps/chat",
+    "heading": "Chat",
+    "errors": []
+  },
+  {
+    "route": "/apps/email",
+    "heading": "Mailbox",
+    "errors": []
+  },
+  {
+    "route": "/apps/file-manager",
+    "heading": "File Manager",
+    "errors": []
+  },
+  {
+    "route": "/apps/files",
+    "heading": "File Manager",
+    "errors": []
+  },
+  {
+    "route": "/apps/invoices",
+    "heading": "Invoices",
+    "errors": []
+  },
+  {
+    "route": "/apps/kanban",
+    "heading": "Deals",
+    "errors": []
+  },
+  {
+    "route": "/apps/pos",
+    "heading": "Point of Sale",
+    "errors": []
+  },
+  {
+    "route": "/apps/products",
+    "heading": "Products",
+    "errors": []
+  },
+  {
+    "route": "/apps/projects",
+    "heading": "Projects",
+    "errors": []
+  },
+  {
+    "route": "/apps/tasks",
+    "heading": "Tasks",
+    "errors": []
+  },
+  {
+    "route": "/apps/tasks/new",
+    "heading": "Tasks",
+    "errors": []
+  },
+  {
+    "route": "/apps/todo",
+    "heading": "Task Manager",
+    "errors": []
+  },
+  {
+    "route": "/auth/change-password",
+    "heading": "Change password",
+    "errors": []
+  },
+  {
+    "route": "/auth/cover-change-password",
+    "heading": "Change password",
+    "errors": []
+  },
+  {
+    "route": "/auth/cover-email-verification",
+    "heading": "Verify your email",
+    "errors": []
+  },
+  {
+    "route": "/auth/cover-forgot-password",
+    "heading": "Forgot password?",
+    "errors": []
+  },
+  {
+    "route": "/auth/cover-lock-screen",
+    "heading": "Lock Screen",
+    "errors": []
+  },
+  {
+    "route": "/auth/cover-login",
+    "heading": "Welcome back",
+    "errors": []
+  },
+  {
+    "route": "/auth/cover-otp",
+    "heading": "Verify",
+    "errors": []
+  },
+  {
+    "route": "/auth/cover-passwordless",
+    "heading": "Sign in with a code",
+    "errors": []
+  },
+  {
+    "route": "/auth/cover-register",
+    "heading": "Create account",
+    "errors": []
+  },
+  {
+    "route": "/auth/cover-reset-password",
+    "heading": "New password",
+    "errors": []
+  },
+  {
+    "route": "/auth/cover-two-factor",
+    "heading": "Two-factor authentication",
+    "errors": []
+  },
+  {
+    "route": "/auth/cover-two-factor-setup",
+    "heading": "Set up two-factor authentication",
+    "errors": []
+  },
+  {
+    "route": "/auth/email-verification",
+    "heading": "Verify your email",
+    "errors": []
+  },
+  {
+    "route": "/auth/forgot-password",
+    "heading": "Forgot password?",
+    "errors": []
+  },
+  {
+    "route": "/auth/lock-screen",
+    "heading": "Lock Screen",
+    "errors": []
+  },
+  {
+    "route": "/auth/login",
+    "heading": "Welcome back",
+    "errors": []
+  },
+  {
+    "route": "/auth/otp",
+    "heading": "Verify",
+    "errors": []
+  },
+  {
+    "route": "/auth/passwordless",
+    "heading": "Sign in with a code",
+    "errors": []
+  },
+  {
+    "route": "/auth/register",
+    "heading": "Create account",
+    "errors": []
+  },
+  {
+    "route": "/auth/reset-password",
+    "heading": "New password",
+    "errors": []
+  },
+  {
+    "route": "/auth/split-change-password",
+    "heading": "Change password",
+    "errors": []
+  },
+  {
+    "route": "/auth/split-email-verification",
+    "heading": "Verify your email",
+    "errors": []
+  },
+  {
+    "route": "/auth/split-forgot-password",
+    "heading": "Forgot password?",
+    "errors": []
+  },
+  {
+    "route": "/auth/split-lock-screen",
+    "heading": "Lock Screen",
+    "errors": []
+  },
+  {
+    "route": "/auth/split-login",
+    "heading": "Welcome back",
+    "errors": []
+  },
+  {
+    "route": "/auth/split-otp",
+    "heading": "Verify",
+    "errors": []
+  },
+  {
+    "route": "/auth/split-passwordless",
+    "heading": "Sign in with a code",
+    "errors": []
+  },
+  {
+    "route": "/auth/split-register",
+    "heading": "Create account",
+    "errors": []
+  },
+  {
+    "route": "/auth/split-reset-password",
+    "heading": "New password",
+    "errors": []
+  },
+  {
+    "route": "/auth/split-two-factor",
+    "heading": "Two-factor authentication",
+    "errors": []
+  },
+  {
+    "route": "/auth/split-two-factor-setup",
+    "heading": "Set up two-factor authentication",
+    "errors": []
+  },
+  {
+    "route": "/auth/two-factor",
+    "heading": "Two-factor authentication",
+    "errors": []
+  },
+  {
+    "route": "/auth/two-factor-setup",
+    "heading": "Set up two-factor authentication",
+    "errors": []
+  },
+  {
+    "route": "/charts",
+    "heading": "Charts",
+    "errors": []
+  },
+  {
+    "route": "/commerce/attributes",
+    "heading": "Attributes",
+    "errors": []
+  },
+  {
+    "route": "/commerce/attributes/new",
+    "heading": "Attributes",
+    "errors": []
+  },
+  {
+    "route": "/commerce/brands",
+    "heading": "Brands",
+    "errors": []
+  },
+  {
+    "route": "/commerce/brands/new",
+    "heading": "Brands",
+    "errors": []
+  },
+  {
+    "route": "/commerce/categories",
+    "heading": "Categories",
+    "errors": []
+  },
+  {
+    "route": "/commerce/categories/new",
+    "heading": "Categories",
+    "errors": []
+  },
+  {
+    "route": "/commerce/customers",
+    "heading": "Customers",
+    "errors": []
+  },
+  {
+    "route": "/commerce/customers/new",
+    "heading": "Customers",
+    "errors": []
+  },
+  {
+    "route": "/commerce/manufacturers",
+    "heading": "Manufacturers",
+    "errors": []
+  },
+  {
+    "route": "/commerce/manufacturers/new",
+    "heading": "Manufacturers",
+    "errors": []
+  },
+  {
+    "route": "/commerce/medicine-types",
+    "heading": "Medicine Types",
+    "errors": []
+  },
+  {
+    "route": "/commerce/medicine-types/new",
+    "heading": "Medicine Types",
+    "errors": []
+  },
+  {
+    "route": "/commerce/orders",
+    "heading": "Orders",
+    "errors": []
+  },
+  {
+    "route": "/commerce/orders/new",
+    "heading": "Orders",
+    "errors": []
+  },
+  {
+    "route": "/commerce/products",
+    "heading": "Products",
+    "errors": []
+  },
+  {
+    "route": "/commerce/products/new",
+    "heading": "Products",
+    "errors": []
+  },
+  {
+    "route": "/commerce/questions",
+    "heading": "Product Questions",
+    "errors": []
+  },
+  {
+    "route": "/commerce/questions/new",
+    "heading": "Product Questions",
+    "errors": []
+  },
+  {
+    "route": "/commerce/reviews",
+    "heading": "Reviews",
+    "errors": []
+  },
+  {
+    "route": "/commerce/reviews/new",
+    "heading": "Reviews",
+    "errors": []
+  },
+  {
+    "route": "/commerce/units",
+    "heading": "Units",
+    "errors": []
+  },
+  {
+    "route": "/commerce/units/new",
+    "heading": "Units",
+    "errors": []
+  },
+  {
+    "route": "/components",
+    "heading": "UI Components",
+    "errors": []
+  },
+  {
+    "route": "/content/blogs",
+    "heading": "Blogs",
+    "errors": []
+  },
+  {
+    "route": "/content/blogs/new",
+    "heading": "Blogs",
+    "errors": []
+  },
+  {
+    "route": "/content/faqs",
+    "heading": "FAQs",
+    "errors": []
+  },
+  {
+    "route": "/content/faqs/new",
+    "heading": "FAQs",
+    "errors": []
+  },
+  {
+    "route": "/content/landing-pages",
+    "heading": "Landing Pages",
+    "errors": []
+  },
+  {
+    "route": "/content/landing-pages/new",
+    "heading": "Landing Pages",
+    "errors": []
+  },
+  {
+    "route": "/content/navigation",
+    "heading": "Navigation",
+    "errors": []
+  },
+  {
+    "route": "/content/navigation/new",
+    "heading": "Navigation",
+    "errors": []
+  },
+  {
+    "route": "/content/pages",
+    "heading": "Pages",
+    "errors": []
+  },
+  {
+    "route": "/content/pages/new",
+    "heading": "Pages",
+    "errors": []
+  },
+  {
+    "route": "/crm/activities",
+    "heading": "Activities",
+    "errors": []
+  },
+  {
+    "route": "/crm/activities/new",
+    "heading": "Activities",
+    "errors": []
+  },
+  {
+    "route": "/crm/contacts",
+    "heading": "Contacts",
+    "errors": []
+  },
+  {
+    "route": "/crm/contacts/new",
+    "heading": "Contacts",
+    "errors": []
+  },
+  {
+    "route": "/crm/deals",
+    "heading": "Deals",
+    "errors": []
+  },
+  {
+    "route": "/crm/deals/new",
+    "heading": "Deals",
+    "errors": []
+  },
+  {
+    "route": "/crm/leads",
+    "heading": "Leads",
+    "errors": []
+  },
+  {
+    "route": "/crm/leads/new",
+    "heading": "Leads",
+    "errors": []
+  },
+  {
+    "route": "/crm/pipeline",
+    "heading": "Deals",
+    "errors": []
+  },
+  {
+    "route": "/dashboard/analytics",
+    "heading": "Analytics",
+    "errors": []
+  },
+  {
+    "route": "/dashboard/crm",
+    "heading": "CRM",
+    "errors": []
+  },
+  {
+    "route": "/dashboard/diagnostics",
+    "heading": "Diagnostics · Overview",
+    "errors": []
+  },
+  {
+    "route": "/dashboard/ecommerce",
+    "heading": "E-Commerce",
+    "errors": []
+  },
+  {
+    "route": "/dashboard/executive",
+    "heading": "Executive · Overview",
+    "errors": []
+  },
+  {
+    "route": "/dashboard/finance",
+    "heading": "Finance",
+    "errors": []
+  },
+  {
+    "route": "/dashboard/inventory",
+    "heading": "Inventory · Overview",
+    "errors": []
+  },
+  {
+    "route": "/dashboard/logistics",
+    "heading": "Logistics · Overview",
+    "errors": []
+  },
+  {
+    "route": "/dashboard/marketing",
+    "heading": "Marketing · Overview",
+    "errors": []
+  },
+  {
+    "route": "/dashboard/pharmacy",
+    "heading": "Pharmacy · Overview",
+    "errors": []
+  },
+  {
+    "route": "/dashboard/projects",
+    "heading": "Projects",
+    "errors": []
+  },
+  {
+    "route": "/dashboard/restaurant",
+    "heading": "POS & Restaurant",
+    "errors": []
+  },
+  {
+    "route": "/dashboard/support",
+    "heading": "Support · Overview",
+    "errors": []
+  },
+  {
+    "route": "/dashboard/vendor",
+    "heading": "Vendor · Overview",
+    "errors": []
+  },
+  {
+    "route": "/diagnostics/bookings",
+    "heading": "Bookings",
+    "errors": []
+  },
+  {
+    "route": "/diagnostics/bookings/new",
+    "heading": "Bookings",
+    "errors": []
+  },
+  {
+    "route": "/diagnostics/centers",
+    "heading": "Collection Centers",
+    "errors": []
+  },
+  {
+    "route": "/diagnostics/centers/new",
+    "heading": "Collection Centers",
+    "errors": []
+  },
+  {
+    "route": "/diagnostics/labs",
+    "heading": "Labs",
+    "errors": []
+  },
+  {
+    "route": "/diagnostics/labs/new",
+    "heading": "Labs",
+    "errors": []
+  },
+  {
+    "route": "/diagnostics/packages",
+    "heading": "Test Packages",
+    "errors": []
+  },
+  {
+    "route": "/diagnostics/packages/new",
+    "heading": "Test Packages",
+    "errors": []
+  },
+  {
+    "route": "/diagnostics/phlebotomists",
+    "heading": "Phlebotomists",
+    "errors": []
+  },
+  {
+    "route": "/diagnostics/phlebotomists/new",
+    "heading": "Phlebotomists",
+    "errors": []
+  },
+  {
+    "route": "/diagnostics/reports",
+    "heading": "Reports",
+    "errors": []
+  },
+  {
+    "route": "/diagnostics/reports/new",
+    "heading": "Reports",
+    "errors": []
+  },
+  {
+    "route": "/diagnostics/samples",
+    "heading": "Bookings",
+    "errors": []
+  },
+  {
+    "route": "/diagnostics/tests",
+    "heading": "Tests",
+    "errors": []
+  },
+  {
+    "route": "/diagnostics/tests/new",
+    "heading": "Tests",
+    "errors": []
+  },
+  {
+    "route": "/docs",
+    "heading": "Documentation",
+    "errors": []
+  },
+  {
+    "route": "/doctors/appointments",
+    "heading": "Appointments",
+    "errors": []
+  },
+  {
+    "route": "/doctors/appointments/new",
+    "heading": "Appointments",
+    "errors": []
+  },
+  {
+    "route": "/doctors/availability",
+    "heading": "Availability",
+    "errors": []
+  },
+  {
+    "route": "/doctors/availability/new",
+    "heading": "Availability",
+    "errors": []
+  },
+  {
+    "route": "/doctors/clinics",
+    "heading": "Clinics",
+    "errors": []
+  },
+  {
+    "route": "/doctors/clinics/new",
+    "heading": "Clinics",
+    "errors": []
+  },
+  {
+    "route": "/doctors/directory",
+    "heading": "Doctors",
+    "errors": []
+  },
+  {
+    "route": "/doctors/directory/new",
+    "heading": "Doctors",
+    "errors": []
+  },
+  {
+    "route": "/doctors/specializations",
+    "heading": "Specializations",
+    "errors": []
+  },
+  {
+    "route": "/doctors/specializations/new",
+    "heading": "Specializations",
+    "errors": []
+  },
+  {
+    "route": "/error-pages/404",
+    "heading": "Page not found",
+    "errors": []
+  },
+  {
+    "route": "/error-pages/500",
+    "heading": "Something went wrong",
+    "errors": []
+  },
+  {
+    "route": "/error-pages/coming-soon",
+    "heading": "Coming soon",
+    "errors": []
+  },
+  {
+    "route": "/error-pages/under-construction",
+    "heading": "Under construction",
+    "errors": []
+  },
+  {
+    "route": "/finance/credit-notes",
+    "heading": "Credit Notes",
+    "errors": []
+  },
+  {
+    "route": "/finance/credit-notes/new",
+    "heading": "Credit Notes",
+    "errors": []
+  },
+  {
+    "route": "/finance/invoices",
+    "heading": "Invoices",
+    "errors": []
+  },
+  {
+    "route": "/finance/invoices/new",
+    "heading": "Invoices",
+    "errors": []
+  },
+  {
+    "route": "/finance/payments",
+    "heading": "Payments",
+    "errors": []
+  },
+  {
+    "route": "/finance/payments/new",
+    "heading": "Payments",
+    "errors": []
+  },
+  {
+    "route": "/finance/payouts",
+    "heading": "Vendor Payouts",
+    "errors": []
+  },
+  {
+    "route": "/finance/payouts/new",
+    "heading": "Vendor Payouts",
+    "errors": []
+  },
+  {
+    "route": "/finance/reconciliation",
+    "heading": "Reconciliation",
+    "errors": []
+  },
+  {
+    "route": "/finance/reconciliation/new",
+    "heading": "Reconciliation",
+    "errors": []
+  },
+  {
+    "route": "/finance/refunds",
+    "heading": "Refunds",
+    "errors": []
+  },
+  {
+    "route": "/finance/refunds/new",
+    "heading": "Refunds",
+    "errors": []
+  },
+  {
+    "route": "/finance/settlements",
+    "heading": "Settlements",
+    "errors": []
+  },
+  {
+    "route": "/finance/settlements/new",
+    "heading": "Settlements",
+    "errors": []
+  },
+  {
+    "route": "/finance/tax-reports",
+    "heading": "Tax Reports",
+    "errors": []
+  },
+  {
+    "route": "/finance/tax-reports/new",
+    "heading": "Tax Reports",
+    "errors": []
+  },
+  {
+    "route": "/finance/transactions",
+    "heading": "Transactions",
+    "errors": []
+  },
+  {
+    "route": "/finance/transactions/new",
+    "heading": "Transactions",
+    "errors": []
+  },
+  {
+    "route": "/finance/wallet",
+    "heading": "Wallet Transactions",
+    "errors": []
+  },
+  {
+    "route": "/finance/wallet/new",
+    "heading": "Wallet Transactions",
+    "errors": []
+  },
+  {
+    "route": "/forms",
+    "heading": "Forms & Settings",
+    "errors": []
+  },
+  {
+    "route": "/inventory/adjustments",
+    "heading": "Adjustments",
+    "errors": []
+  },
+  {
+    "route": "/inventory/adjustments/new",
+    "heading": "Adjustments",
+    "errors": []
+  },
+  {
+    "route": "/inventory/batches",
+    "heading": "Stock",
+    "errors": []
+  },
+  {
+    "route": "/inventory/expiry",
+    "heading": "Stock",
+    "errors": []
+  },
+  {
+    "route": "/inventory/low-stock",
+    "heading": "Stock",
+    "errors": []
+  },
+  {
+    "route": "/inventory/movements",
+    "heading": "Stock Movement",
+    "errors": []
+  },
+  {
+    "route": "/inventory/stock",
+    "heading": "Stock",
+    "errors": []
+  },
+  {
+    "route": "/inventory/stock/new",
+    "heading": "Stock",
+    "errors": []
+  },
+  {
+    "route": "/inventory/transfers",
+    "heading": "Transfers",
+    "errors": []
+  },
+  {
+    "route": "/inventory/transfers/new",
+    "heading": "Transfers",
+    "errors": []
+  },
+  {
+    "route": "/inventory/warehouses",
+    "heading": "Warehouses",
+    "errors": []
+  },
+  {
+    "route": "/inventory/warehouses/new",
+    "heading": "Warehouses",
+    "errors": []
+  },
+  {
+    "route": "/layouts",
+    "heading": "Admin Layouts",
+    "errors": []
+  },
+  {
+    "route": "/library",
+    "heading": "UI Library",
+    "errors": []
+  },
+  {
+    "route": "/library/authentication/gallery",
+    "heading": "Authentication Gallery",
+    "errors": []
+  },
+  {
+    "route": "/library/calendars/agenda",
+    "heading": "Agenda Calendar",
+    "errors": []
+  },
+  {
+    "route": "/library/calendars/month",
+    "heading": "Month Calendar",
+    "errors": []
+  },
+  {
+    "route": "/library/calendars/week",
+    "heading": "Week Calendar",
+    "errors": []
+  },
+  {
+    "route": "/library/charts/area",
+    "heading": "Area Chart",
+    "errors": []
+  },
+  {
+    "route": "/library/charts/bar",
+    "heading": "Bar Chart",
+    "errors": []
+  },
+  {
+    "route": "/library/charts/donut",
+    "heading": "Donut Chart",
+    "errors": []
+  },
+  {
+    "route": "/library/charts/line",
+    "heading": "Line Chart",
+    "errors": []
+  },
+  {
+    "route": "/library/charts/radar",
+    "heading": "Radar Chart",
+    "errors": []
+  },
+  {
+    "route": "/library/charts/scatter",
+    "heading": "Scatter Chart",
+    "errors": []
+  },
+  {
+    "route": "/library/charts/stacked",
+    "heading": "Stacked Bar Chart",
+    "errors": []
+  },
+  {
+    "route": "/library/components/buttons",
+    "heading": "Buttons & Badges",
+    "errors": []
+  },
+  {
+    "route": "/library/components/feedback",
+    "heading": "Alerts & Progress",
+    "errors": []
+  },
+  {
+    "route": "/library/components/overlays",
+    "heading": "Dialogs & Drawers",
+    "errors": []
+  },
+  {
+    "route": "/library/forms/elements",
+    "heading": "Basic Inputs",
+    "errors": []
+  },
+  {
+    "route": "/library/forms/horizontal",
+    "heading": "Horizontal Form",
+    "errors": []
+  },
+  {
+    "route": "/library/forms/upload",
+    "heading": "File Upload",
+    "errors": []
+  },
+  {
+    "route": "/library/forms/validation",
+    "heading": "Validated Form",
+    "errors": []
+  },
+  {
+    "route": "/library/forms/wizard",
+    "heading": "Multi-step Wizard",
+    "errors": []
+  },
+  {
+    "route": "/library/patterns/accordion",
+    "heading": "Accordions & FAQs",
+    "errors": []
+  },
+  {
+    "route": "/library/patterns/cards",
+    "heading": "Cards & Pricing",
+    "errors": []
+  },
+  {
+    "route": "/library/patterns/icons",
+    "heading": "Icon Browser",
+    "errors": []
+  },
+  {
+    "route": "/library/patterns/loading",
+    "heading": "Loading & Empty States",
+    "errors": []
+  },
+  {
+    "route": "/library/patterns/selections",
+    "heading": "Selection Controls",
+    "errors": []
+  },
+  {
+    "route": "/library/patterns/tabs",
+    "heading": "Tabs & Navigation",
+    "errors": []
+  },
+  {
+    "route": "/library/patterns/timeline",
+    "heading": "Activity Timeline",
+    "errors": []
+  },
+  {
+    "route": "/library/patterns/tokens",
+    "heading": "Colors & Typography",
+    "errors": []
+  },
+  {
+    "route": "/library/patterns/tooltips",
+    "heading": "Tooltips & Help",
+    "errors": []
+  },
+  {
+    "route": "/library/tables/advanced",
+    "heading": "Advanced Data Table",
+    "errors": []
+  },
+  {
+    "route": "/library/tables/basic",
+    "heading": "Basic Table",
+    "errors": []
+  },
+  {
+    "route": "/library/tables/bordered",
+    "heading": "Bordered Table",
+    "errors": []
+  },
+  {
+    "route": "/library/tables/compact",
+    "heading": "Compact Table",
+    "errors": []
+  },
+  {
+    "route": "/library/tables/expandable",
+    "heading": "Expandable Table",
+    "errors": []
+  },
+  {
+    "route": "/library/tables/striped",
+    "heading": "Striped Table",
+    "errors": []
+  },
+  {
+    "route": "/logistics/partners",
+    "heading": "Delivery Partners",
+    "errors": []
+  },
+  {
+    "route": "/logistics/partners/new",
+    "heading": "Delivery Partners",
+    "errors": []
+  },
+  {
+    "route": "/logistics/pincodes",
+    "heading": "Pincodes",
+    "errors": []
+  },
+  {
+    "route": "/logistics/pincodes/new",
+    "heading": "Pincodes",
+    "errors": []
+  },
+  {
+    "route": "/logistics/returns",
+    "heading": "Returns",
+    "errors": []
+  },
+  {
+    "route": "/logistics/returns/new",
+    "heading": "Returns",
+    "errors": []
+  },
+  {
+    "route": "/logistics/shipments",
+    "heading": "Shipments",
+    "errors": []
+  },
+  {
+    "route": "/logistics/shipments/new",
+    "heading": "Shipments",
+    "errors": []
+  },
+  {
+    "route": "/logistics/zones",
+    "heading": "Delivery Zones",
+    "errors": []
+  },
+  {
+    "route": "/logistics/zones/new",
+    "heading": "Delivery Zones",
+    "errors": []
+  },
+  {
+    "route": "/marketing/banners",
+    "heading": "Banners",
+    "errors": []
+  },
+  {
+    "route": "/marketing/banners/new",
+    "heading": "Banners",
+    "errors": []
+  },
+  {
+    "route": "/marketing/campaigns",
+    "heading": "Campaigns",
+    "errors": []
+  },
+  {
+    "route": "/marketing/campaigns/new",
+    "heading": "Campaigns",
+    "errors": []
+  },
+  {
+    "route": "/marketing/coupons",
+    "heading": "Coupons",
+    "errors": []
+  },
+  {
+    "route": "/marketing/coupons/new",
+    "heading": "Coupons",
+    "errors": []
+  },
+  {
+    "route": "/marketing/email",
+    "heading": "Email Campaigns",
+    "errors": []
+  },
+  {
+    "route": "/marketing/email/new",
+    "heading": "Email Campaigns",
+    "errors": []
+  },
+  {
+    "route": "/marketing/notifications",
+    "heading": "Push Notifications",
+    "errors": []
+  },
+  {
+    "route": "/marketing/notifications/new",
+    "heading": "Push Notifications",
+    "errors": []
+  },
+  {
+    "route": "/marketing/offers",
+    "heading": "Offers",
+    "errors": []
+  },
+  {
+    "route": "/marketing/offers/new",
+    "heading": "Offers",
+    "errors": []
+  },
+  {
+    "route": "/marketing/referrals",
+    "heading": "Referral Program",
+    "errors": []
+  },
+  {
+    "route": "/marketing/referrals/new",
+    "heading": "Referral Program",
+    "errors": []
+  },
+  {
+    "route": "/pharmacy/medicines",
+    "heading": "Products",
+    "errors": []
+  },
+  {
+    "route": "/pharmacy/orders",
+    "heading": "Orders",
+    "errors": []
+  },
+  {
+    "route": "/pharmacy/prescriptions",
+    "heading": "Prescriptions",
+    "errors": []
+  },
+  {
+    "route": "/pharmacy/prescriptions/new",
+    "heading": "Prescriptions",
+    "errors": []
+  },
+  {
+    "route": "/procurement/grn",
+    "heading": "Goods Received",
+    "errors": []
+  },
+  {
+    "route": "/procurement/grn/new",
+    "heading": "Goods Received",
+    "errors": []
+  },
+  {
+    "route": "/procurement/orders",
+    "heading": "Purchase Orders",
+    "errors": []
+  },
+  {
+    "route": "/procurement/orders/new",
+    "heading": "Purchase Orders",
+    "errors": []
+  },
+  {
+    "route": "/procurement/putaway",
+    "heading": "Putaway",
+    "errors": []
+  },
+  {
+    "route": "/procurement/putaway/new",
+    "heading": "Putaway",
+    "errors": []
+  },
+  {
+    "route": "/procurement/requests",
+    "heading": "Purchase Requests",
+    "errors": []
+  },
+  {
+    "route": "/procurement/requests/new",
+    "heading": "Purchase Requests",
+    "errors": []
+  },
+  {
+    "route": "/procurement/returns",
+    "heading": "Purchase Returns",
+    "errors": []
+  },
+  {
+    "route": "/procurement/returns/new",
+    "heading": "Purchase Returns",
+    "errors": []
+  },
+  {
+    "route": "/procurement/vendors",
+    "heading": "Vendors",
+    "errors": []
+  },
+  {
+    "route": "/procurement/vendors/new",
+    "heading": "Vendors",
+    "errors": []
+  },
+  {
+    "route": "/profile",
+    "heading": "Profile",
+    "errors": []
+  },
+  {
+    "route": "/settings/appearance",
+    "heading": "Appearance",
+    "errors": []
+  },
+  {
+    "route": "/settings/authentication",
+    "heading": "Authentication",
+    "errors": []
+  },
+  {
+    "route": "/settings/branding",
+    "heading": "Branding",
+    "errors": []
+  },
+  {
+    "route": "/settings/company",
+    "heading": "Company",
+    "errors": []
+  },
+  {
+    "route": "/settings/currency",
+    "heading": "Currency",
+    "errors": []
+  },
+  {
+    "route": "/settings/demo",
+    "heading": "Developer / Demo",
+    "errors": []
+  },
+  {
+    "route": "/settings/email",
+    "heading": "Email",
+    "errors": []
+  },
+  {
+    "route": "/settings/features",
+    "heading": "Feature Flags",
+    "errors": []
+  },
+  {
+    "route": "/settings/general",
+    "heading": "General",
+    "errors": []
+  },
+  {
+    "route": "/settings/integrations",
+    "heading": "Integrations",
+    "errors": []
+  },
+  {
+    "route": "/settings/localization",
+    "heading": "Localization",
+    "errors": []
+  },
+  {
+    "route": "/settings/notifications",
+    "heading": "Notifications",
+    "errors": []
+  },
+  {
+    "route": "/settings/payment",
+    "heading": "Payment",
+    "errors": []
+  },
+  {
+    "route": "/settings/roles",
+    "heading": "Roles & Permissions",
+    "errors": []
+  },
+  {
+    "route": "/settings/security",
+    "heading": "Security",
+    "errors": []
+  },
+  {
+    "route": "/settings/shipping",
+    "heading": "Shipping",
+    "errors": []
+  },
+  {
+    "route": "/settings/sms",
+    "heading": "Sms",
+    "errors": []
+  },
+  {
+    "route": "/settings/taxes",
+    "heading": "Taxes",
+    "errors": []
+  },
+  {
+    "route": "/support/agents",
+    "heading": "Agents",
+    "errors": []
+  },
+  {
+    "route": "/support/agents/new",
+    "heading": "Agents",
+    "errors": []
+  },
+  {
+    "route": "/support/categories",
+    "heading": "Categories",
+    "errors": []
+  },
+  {
+    "route": "/support/categories/new",
+    "heading": "Categories",
+    "errors": []
+  },
+  {
+    "route": "/support/responses",
+    "heading": "Canned Responses",
+    "errors": []
+  },
+  {
+    "route": "/support/responses/new",
+    "heading": "Canned Responses",
+    "errors": []
+  },
+  {
+    "route": "/support/teams",
+    "heading": "Teams",
+    "errors": []
+  },
+  {
+    "route": "/support/teams/new",
+    "heading": "Teams",
+    "errors": []
+  },
+  {
+    "route": "/support/tickets",
+    "heading": "Tickets",
+    "errors": []
+  },
+  {
+    "route": "/support/tickets/new",
+    "heading": "Tickets",
+    "errors": []
+  },
+  {
+    "route": "/tables",
+    "heading": "Members",
+    "errors": []
+  },
+  {
+    "route": "/tables/advanced",
+    "heading": "Customers",
+    "errors": []
+  },
+  {
+    "route": "/template",
+    "heading": "Template overview",
+    "errors": []
+  },
+  {
+    "route": "/vendors/applications",
+    "heading": "Seller Applications",
+    "errors": []
+  },
+  {
+    "route": "/vendors/applications/new",
+    "heading": "Seller Applications",
+    "errors": []
+  },
+  {
+    "route": "/vendors/commissions",
+    "heading": "Commissions",
+    "errors": []
+  },
+  {
+    "route": "/vendors/commissions/new",
+    "heading": "Commissions",
+    "errors": []
+  },
+  {
+    "route": "/vendors/documents",
+    "heading": "Documents",
+    "errors": []
+  },
+  {
+    "route": "/vendors/documents/new",
+    "heading": "Documents",
+    "errors": []
+  },
+  {
+    "route": "/vendors/performance",
+    "heading": "Performance",
+    "errors": []
+  },
+  {
+    "route": "/vendors/performance/new",
+    "heading": "Performance",
+    "errors": []
+  },
+  {
+    "route": "/vendors/sellers",
+    "heading": "Sellers",
+    "errors": []
+  },
+  {
+    "route": "/vendors/sellers/new",
+    "heading": "Sellers",
+    "errors": []
+  },
+  {
+    "route": "/warehouse/bins",
+    "heading": "Bins",
+    "errors": []
+  },
+  {
+    "route": "/warehouse/bins/new",
+    "heading": "Bins",
+    "errors": []
+  },
+  {
+    "route": "/warehouse/dispatch",
+    "heading": "Dispatch",
+    "errors": []
+  },
+  {
+    "route": "/warehouse/dispatch/new",
+    "heading": "Dispatch",
+    "errors": []
+  },
+  {
+    "route": "/warehouse/packing",
+    "heading": "Packing",
+    "errors": []
+  },
+  {
+    "route": "/warehouse/packing/new",
+    "heading": "Packing",
+    "errors": []
+  },
+  {
+    "route": "/warehouse/picking",
+    "heading": "Picking",
+    "errors": []
+  },
+  {
+    "route": "/warehouse/picking/new",
+    "heading": "Picking",
+    "errors": []
+  },
+  {
+    "route": "/warehouse/racks",
+    "heading": "Racks",
+    "errors": []
+  },
+  {
+    "route": "/warehouse/racks/new",
+    "heading": "Racks",
+    "errors": []
+  },
+  {
+    "route": "/warehouse/trays",
+    "heading": "Trays",
+    "errors": []
+  },
+  {
+    "route": "/warehouse/trays/new",
+    "heading": "Trays",
+    "errors": []
+  },
+  {
+    "route": "/warehouse/zones",
+    "heading": "Zones",
+    "errors": []
+  },
+  {
+    "route": "/warehouse/zones/new",
+    "heading": "Zones",
+    "errors": []
+  }
+]

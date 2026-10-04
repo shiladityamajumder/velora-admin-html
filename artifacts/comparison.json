@@ -1,0 +1,1398 @@
+[
+  {
+    "port": 3201,
+    "route": "/template",
+    "geometry": [
+      {
+        "class": "text-lg font-semibold",
+        "text": "Template overview",
+        "rect": {
+          "x": 284,
+          "y": 118,
+          "width": 612,
+          "height": 28,
+          "top": 118,
+          "right": 896,
+          "bottom": 146,
+          "left": 284
+        }
+      },
+      {
+        "class": "surface min-w-0 rounded-md p-5",
+        "text": null,
+        "rect": {
+          "x": 284,
+          "y": 190,
+          "width": 274,
+          "height": 131,
+          "top": 190,
+          "right": 558,
+          "bottom": 321,
+          "left": 284
+        }
+      },
+      {
+        "class": "surface min-w-0 rounded-md p-5",
+        "text": null,
+        "rect": {
+          "x": 570,
+          "y": 190,
+          "width": 274,
+          "height": 131,
+          "top": 190,
+          "right": 844,
+          "bottom": 321,
+          "left": 570
+        }
+      },
+      {
+        "class": "surface min-w-0 rounded-md p-5",
+        "text": null,
+        "rect": {
+          "x": 856,
+          "y": 190,
+          "width": 274,
+          "height": 131,
+          "top": 190,
+          "right": 1130,
+          "bottom": 321,
+          "left": 856
+        }
+      },
+      {
+        "class": "surface min-w-0 rounded-md p-5",
+        "text": null,
+        "rect": {
+          "x": 1142,
+          "y": 190,
+          "width": 274,
+          "height": 131,
+          "top": 190,
+          "right": 1416,
+          "bottom": 321,
+          "left": 1142
+        }
+      },
+      {
+        "class": "surface min-w-0 rounded-md",
+        "text": null,
+        "rect": {
+          "x": 284,
+          "y": 341,
+          "width": 556,
+          "height": 365,
+          "top": 341,
+          "right": 840,
+          "bottom": 706,
+          "left": 284
+        }
+      },
+      {
+        "class": "surface min-w-0 rounded-md",
+        "text": null,
+        "rect": {
+          "x": 860,
+          "y": 341,
+          "width": 556,
+          "height": 365,
+          "top": 341,
+          "right": 1416,
+          "bottom": 706,
+          "left": 860
+        }
+      },
+      {
+        "class": "surface min-w-0 rounded-md",
+        "text": null,
+        "rect": {
+          "x": 284,
+          "y": 726,
+          "width": 1132,
+          "height": 750,
+          "top": 726,
+          "right": 1416,
+          "bottom": 1476,
+          "left": 284
+        }
+      }
+    ],
+    "charts": 0,
+    "ticks": 0,
+    "curves": []
+  },
+  {
+    "port": 3201,
+    "route": "/dashboard/executive",
+    "geometry": [
+      {
+        "class": "text-lg font-semibold",
+        "text": "Executive · Overview",
+        "rect": {
+          "x": 284,
+          "y": 118,
+          "width": 344,
+          "height": 28,
+          "top": 118,
+          "right": 628,
+          "bottom": 146,
+          "left": 284
+        }
+      },
+      {
+        "class": "surface min-w-0 rounded-md metric-card p-5",
+        "text": null,
+        "rect": {
+          "x": 284,
+          "y": 190,
+          "width": 274,
+          "height": 154,
+          "top": 190,
+          "right": 558,
+          "bottom": 344,
+          "left": 284
+        }
+      },
+      {
+        "class": "surface min-w-0 rounded-md metric-card p-5",
+        "text": null,
+        "rect": {
+          "x": 570,
+          "y": 190,
+          "width": 274,
+          "height": 154,
+          "top": 190,
+          "right": 844,
+          "bottom": 344,
+          "left": 570
+        }
+      },
+      {
+        "class": "surface min-w-0 rounded-md metric-card p-5",
+        "text": null,
+        "rect": {
+          "x": 856,
+          "y": 190,
+          "width": 274,
+          "height": 154,
+          "top": 190,
+          "right": 1130,
+          "bottom": 344,
+          "left": 856
+        }
+      },
+      {
+        "class": "surface min-w-0 rounded-md metric-card p-5",
+        "text": null,
+        "rect": {
+          "x": 1142,
+          "y": 190,
+          "width": 274,
+          "height": 154,
+          "top": 190,
+          "right": 1416,
+          "bottom": 344,
+          "left": 1142
+        }
+      },
+      {
+        "class": "surface min-w-0 rounded-md",
+        "text": null,
+        "rect": {
+          "x": 284,
+          "y": 364,
+          "width": 741.328125,
+          "height": 427,
+          "top": 364,
+          "right": 1025.328125,
+          "bottom": 791,
+          "left": 284
+        }
+      },
+      {
+        "class": "recharts-surface",
+        "text": null,
+        "rect": {
+          "x": 301,
+          "y": 453,
+          "width": 707,
+          "height": 280,
+          "top": 453,
+          "right": 1008,
+          "bottom": 733,
+          "left": 301
+        }
+      },
+      {
+        "class": "surface min-w-0 rounded-md",
+        "text": null,
+        "rect": {
+          "x": 1045.328125,
+          "y": 364,
+          "width": 370.65625,
+          "height": 427,
+          "top": 364,
+          "right": 1415.984375,
+          "bottom": 791,
+          "left": 1045.328125
+        }
+      },
+      {
+        "class": "recharts-surface",
+        "text": null,
+        "rect": {
+          "x": 1090.65625,
+          "y": 435,
+          "width": 280,
+          "height": 240,
+          "top": 435,
+          "right": 1370.65625,
+          "bottom": 675,
+          "left": 1090.65625
+        }
+      },
+      {
+        "class": "surface min-w-0 rounded-md",
+        "text": null,
+        "rect": {
+          "x": 284,
+          "y": 811,
+          "width": 741.328125,
+          "height": 403.5,
+          "top": 811,
+          "right": 1025.328125,
+          "bottom": 1214.5,
+          "left": 284
+        }
+      },
+      {
+        "class": "surface min-w-0 rounded-md",
+        "text": null,
+        "rect": {
+          "x": 1045.328125,
+          "y": 811,
+          "width": 370.65625,
+          "height": 403.5,
+          "top": 811,
+          "right": 1415.984375,
+          "bottom": 1214.5,
+          "left": 1045.328125
+        }
+      },
+      {
+        "class": "recharts-surface",
+        "text": null,
+        "rect": {
+          "x": 1062.328125,
+          "y": 882,
+          "width": 337,
+          "height": 230,
+          "top": 882,
+          "right": 1399.328125,
+          "bottom": 1112,
+          "left": 1062.328125
+        }
+      }
+    ],
+    "charts": 3,
+    "ticks": 21,
+    "curves": [
+      {
+        "d": "M42,215.951C51.464,213.221,60.928,210.492,70.391,207.762C79.855,205.033,89.319,202.304,98.783,199.574C108.246,196.845,117.71,194.115,127.174,191.386C136.638,188.656,146.101,185.927,155.565,183.198C165.029,180.468,174.493,177.739,183.957,175.009C193.42,172.28,202.884,169.551,212.348,166.821C221.812,164.092,231.275,161.362,240.739,158.633C250.203,155.904,259.667,153.174,269.13,150.445C278.594,147.715,288.058,144.986,297.522,142.256C306.986,139.527,316.449,136.798,325.913,134.068C335.377,131.339,344.841,128.609,354.304,125.88C363.768,123.151,373.232,120.421,382.696,117.692C392.159,114.962,401.623,112.233,411.087,109.504C420.551,106.774,430.014,104.045,439.478,101.315C448.942,98.586,458.406,95.856,467.87,93.127C477.333,90.398,486.797,87.668,496.261,84.939C505.725,82.209,515.188,79.48,524.652,76.751C534.116,74.021,543.58,71.292,553.043,68.562C562.507,65.833,571.971,63.104,581.435,60.374C590.899,57.645,600.362,54.915,609.826,52.186C619.29,49.456,628.754,46.727,638.217,43.998C647.681,41.268,657.145,38.539,666.609,35.809C676.072,33.08,685.536,30.351,695,27.621L695,250C685.536,250,676.072,250,666.609,250C657.145,250,647.681,250,638.217,250C628.754,250,619.29,250,609.826,250C600.362,250,590.899,250,581.435,250C571.971,250,562.507,250,553.043,250C543.58,250,534.116,250,524.652,250C515.188,250,505.725,250,496.261,250C486.797,250,477.333,250,467.87,250C458.406,250,448.942,250,439.478,250C430.014,250,420.551,250,411.087,250C401.623,250,392.159,250,382.696,250C373.232,250,363.768,250,354.304,250C344.841,250,335.377,250,325.913,250C316.449,250,306.986,250,297.522,250C288.058,250,278.594,250,269.13,250C259.667,250,250.203,250,240.739,250C231.275,250,221.812,250,212.348,250C202.884,250,193.42,250,183.957,250C174.493,250,165.029,250,155.565,250C146.101,250,136.638,250,127.174,250C117.71,250,108.246,250,98.783,250C89.319,250,79.855,250,70.391,250C60.928,250,51.464,250,42,250Z",
+        "stroke": null
+      },
+      {
+        "d": "M42,215.951C51.464,213.221,60.928,210.492,70.391,207.762C79.855,205.033,89.319,202.304,98.783,199.574C108.246,196.845,117.71,194.115,127.174,191.386C136.638,188.656,146.101,185.927,155.565,183.198C165.029,180.468,174.493,177.739,183.957,175.009C193.42,172.28,202.884,169.551,212.348,166.821C221.812,164.092,231.275,161.362,240.739,158.633C250.203,155.904,259.667,153.174,269.13,150.445C278.594,147.715,288.058,144.986,297.522,142.256C306.986,139.527,316.449,136.798,325.913,134.068C335.377,131.339,344.841,128.609,354.304,125.88C363.768,123.151,373.232,120.421,382.696,117.692C392.159,114.962,401.623,112.233,411.087,109.504C420.551,106.774,430.014,104.045,439.478,101.315C448.942,98.586,458.406,95.856,467.87,93.127C477.333,90.398,486.797,87.668,496.261,84.939C505.725,82.209,515.188,79.48,524.652,76.751C534.116,74.021,543.58,71.292,553.043,68.562C562.507,65.833,571.971,63.104,581.435,60.374C590.899,57.645,600.362,54.915,609.826,52.186C619.29,49.456,628.754,46.727,638.217,43.998C647.681,41.268,657.145,38.539,666.609,35.809C676.072,33.08,685.536,30.351,695,27.621",
+        "stroke": null
+      }
+    ]
+  },
+  {
+    "port": 3201,
+    "route": "/dashboard/analytics",
+    "geometry": [
+      {
+        "class": "text-lg font-semibold",
+        "text": "Analytics",
+        "rect": {
+          "x": 284,
+          "y": 118,
+          "width": 82,
+          "height": 28,
+          "top": 118,
+          "right": 366,
+          "bottom": 146,
+          "left": 284
+        }
+      },
+      {
+        "class": "surface min-w-0 rounded-md flex min-h-[175px] flex-col justify-between p-6",
+        "text": null,
+        "rect": {
+          "x": 284,
+          "y": 170,
+          "width": 265,
+          "height": 178,
+          "top": 170,
+          "right": 549,
+          "bottom": 348,
+          "left": 284
+        }
+      },
+      {
+        "class": "surface min-w-0 rounded-md flex min-h-[175px] flex-col justify-between p-6",
+        "text": null,
+        "rect": {
+          "x": 573,
+          "y": 170,
+          "width": 265,
+          "height": 178,
+          "top": 170,
+          "right": 838,
+          "bottom": 348,
+          "left": 573
+        }
+      },
+      {
+        "class": "surface min-w-0 rounded-md flex min-h-[175px] flex-col justify-between p-6",
+        "text": null,
+        "rect": {
+          "x": 862,
+          "y": 170,
+          "width": 265,
+          "height": 178,
+          "top": 170,
+          "right": 1127,
+          "bottom": 348,
+          "left": 862
+        }
+      },
+      {
+        "class": "surface min-w-0 rounded-md flex min-h-[175px] flex-col justify-between p-6",
+        "text": null,
+        "rect": {
+          "x": 1151,
+          "y": 170,
+          "width": 265,
+          "height": 178,
+          "top": 170,
+          "right": 1416,
+          "bottom": 348,
+          "left": 1151
+        }
+      },
+      {
+        "class": "surface min-w-0 rounded-md lg:col-span-2",
+        "text": null,
+        "rect": {
+          "x": 284,
+          "y": 372,
+          "width": 746.65625,
+          "height": 479.5,
+          "top": 372,
+          "right": 1030.65625,
+          "bottom": 851.5,
+          "left": 284
+        }
+      },
+      {
+        "class": "recharts-surface",
+        "text": null,
+        "rect": {
+          "x": 305,
+          "y": 465,
+          "width": 705,
+          "height": 330,
+          "top": 465,
+          "right": 1010,
+          "bottom": 795,
+          "left": 305
+        }
+      },
+      {
+        "class": "surface min-w-0 rounded-md",
+        "text": null,
+        "rect": {
+          "x": 1054.65625,
+          "y": 372,
+          "width": 361.34375,
+          "height": 479.5,
+          "top": 372,
+          "right": 1416,
+          "bottom": 851.5,
+          "left": 1054.65625
+        }
+      },
+      {
+        "class": "recharts-surface",
+        "text": null,
+        "rect": {
+          "x": 1095.328125,
+          "y": 465,
+          "width": 280,
+          "height": 215,
+          "top": 465,
+          "right": 1375.328125,
+          "bottom": 680,
+          "left": 1095.328125
+        }
+      },
+      {
+        "class": "surface min-w-0 rounded-md",
+        "text": null,
+        "rect": {
+          "x": 284,
+          "y": 875.5,
+          "width": 554,
+          "height": 465,
+          "top": 875.5,
+          "right": 838,
+          "bottom": 1340.5,
+          "left": 284
+        }
+      },
+      {
+        "class": "surface min-w-0 rounded-md",
+        "text": null,
+        "rect": {
+          "x": 862,
+          "y": 875.5,
+          "width": 554,
+          "height": 465,
+          "top": 875.5,
+          "right": 1416,
+          "bottom": 1340.5,
+          "left": 862
+        }
+      }
+    ],
+    "charts": 2,
+    "ticks": 19,
+    "curves": [
+      {
+        "d": "M69.208,121.771C87.347,110.029,105.486,98.286,123.625,98.286C141.764,98.286,159.903,113.943,178.042,113.943C196.181,113.943,214.319,90.457,232.458,90.457C250.597,90.457,268.736,95.676,286.875,98.286C305.014,100.895,323.153,102.2,341.292,106.114C359.431,110.029,377.569,121.771,395.708,121.771C413.847,121.771,431.986,119.162,450.125,113.943C468.264,108.724,486.403,90.457,504.542,90.457C522.681,90.457,540.819,94.371,558.958,98.286C577.097,102.2,595.236,113.943,613.375,113.943C631.514,113.943,649.653,108.071,667.792,102.2",
+        "stroke": null
+      }
+    ]
+  },
+  {
+    "port": 3201,
+    "route": "/library/charts/line",
+    "geometry": [
+      {
+        "class": "text-lg font-semibold",
+        "text": "Line Chart",
+        "rect": {
+          "x": 284,
+          "y": 118,
+          "width": 306,
+          "height": 28,
+          "top": 118,
+          "right": 590,
+          "bottom": 146,
+          "left": 284
+        }
+      },
+      {
+        "class": "surface min-w-0 rounded-md",
+        "text": null,
+        "rect": {
+          "x": 284,
+          "y": 244,
+          "width": 1132,
+          "height": 469,
+          "top": 244,
+          "right": 1416,
+          "bottom": 713,
+          "left": 284
+        }
+      },
+      {
+        "class": "recharts-surface",
+        "text": null,
+        "rect": {
+          "x": 754,
+          "y": 666.5,
+          "width": 14,
+          "height": 14,
+          "top": 666.5,
+          "right": 768,
+          "bottom": 680.5,
+          "left": 754
+        }
+      },
+      {
+        "class": "recharts-surface",
+        "text": null,
+        "rect": {
+          "x": 864,
+          "y": 666.5,
+          "width": 14,
+          "height": 14,
+          "top": 666.5,
+          "right": 878,
+          "bottom": 680.5,
+          "left": 864
+        }
+      },
+      {
+        "class": "recharts-surface",
+        "text": null,
+        "rect": {
+          "x": 309,
+          "y": 338,
+          "width": 1082,
+          "height": 350,
+          "top": 338,
+          "right": 1391,
+          "bottom": 688,
+          "left": 309
+        }
+      },
+      {
+        "class": "surface min-w-0 rounded-md mt-5 p-4",
+        "text": null,
+        "rect": {
+          "x": 284,
+          "y": 733,
+          "width": 1132,
+          "height": 50,
+          "top": 733,
+          "right": 1416,
+          "bottom": 783,
+          "left": 284
+        }
+      }
+    ],
+    "charts": 3,
+    "ticks": 17,
+    "curves": [
+      {
+        "d": "M65,227.943L157,194.914L249,209.364L341,155.693L433,172.207L525,120.6L617,137.114L709,102.021L801,145.371L893,77.25L985,91.7L1077,38.029",
+        "stroke": null
+      },
+      {
+        "d": "M65,242.393L157,232.071L249,221.75L341,211.429L433,201.107L525,190.786L617,180.464L709,170.143L801,159.821L893,149.5L985,139.179L1077,128.857",
+        "stroke": null
+      }
+    ]
+  },
+  {
+    "port": 3201,
+    "route": "/commerce/products",
+    "geometry": [
+      {
+        "class": "text-lg font-semibold",
+        "text": "Products",
+        "rect": {
+          "x": 284,
+          "y": 118,
+          "width": 423,
+          "height": 28,
+          "top": 118,
+          "right": 707,
+          "bottom": 146,
+          "left": 284
+        }
+      },
+      {
+        "class": "surface min-w-0 rounded-md density-card p-5",
+        "text": null,
+        "rect": {
+          "x": 284,
+          "y": 190,
+          "width": 274,
+          "height": 94,
+          "top": 190,
+          "right": 558,
+          "bottom": 284,
+          "left": 284
+        }
+      },
+      {
+        "class": "surface min-w-0 rounded-md density-card p-5",
+        "text": null,
+        "rect": {
+          "x": 570,
+          "y": 190,
+          "width": 274,
+          "height": 94,
+          "top": 190,
+          "right": 844,
+          "bottom": 284,
+          "left": 570
+        }
+      },
+      {
+        "class": "surface min-w-0 rounded-md density-card p-5",
+        "text": null,
+        "rect": {
+          "x": 856,
+          "y": 190,
+          "width": 274,
+          "height": 94,
+          "top": 190,
+          "right": 1130,
+          "bottom": 284,
+          "left": 856
+        }
+      },
+      {
+        "class": "surface min-w-0 rounded-md density-card p-5",
+        "text": null,
+        "rect": {
+          "x": 1142,
+          "y": 190,
+          "width": 274,
+          "height": 94,
+          "top": 190,
+          "right": 1416,
+          "bottom": 284,
+          "left": 1142
+        }
+      },
+      {
+        "class": "surface hidden flex-wrap items-end gap-3 p-4 md:flex",
+        "text": null,
+        "rect": {
+          "x": 284,
+          "y": 304,
+          "width": 1132,
+          "height": 100,
+          "top": 304,
+          "right": 1416,
+          "bottom": 404,
+          "left": 284
+        }
+      },
+      {
+        "class": "surface overflow-hidden",
+        "text": null,
+        "rect": {
+          "x": 284,
+          "y": 420,
+          "width": 1132,
+          "height": 795,
+          "top": 420,
+          "right": 1416,
+          "bottom": 1215,
+          "left": 284
+        }
+      },
+      {
+        "class": "surface absolute end-0 top-10 z-20 min-w-48 space-y-2 p-3",
+        "text": null,
+        "rect": {
+          "x": 889,
+          "y": 514.5,
+          "width": 192,
+          "height": 267,
+          "top": 514.5,
+          "right": 1081,
+          "bottom": 781.5,
+          "left": 889
+        }
+      }
+    ],
+    "charts": 0,
+    "ticks": 0,
+    "curves": []
+  },
+  {
+    "port": 3200,
+    "route": "/template",
+    "geometry": [
+      {
+        "class": "text-lg font-semibold",
+        "text": "Template overview",
+        "rect": {
+          "x": 284,
+          "y": 118,
+          "width": 612,
+          "height": 28,
+          "top": 118,
+          "right": 896,
+          "bottom": 146,
+          "left": 284
+        }
+      },
+      {
+        "class": "surface min-w-0 rounded-md p-5",
+        "text": null,
+        "rect": {
+          "x": 284,
+          "y": 190,
+          "width": 274,
+          "height": 131,
+          "top": 190,
+          "right": 558,
+          "bottom": 321,
+          "left": 284
+        }
+      },
+      {
+        "class": "surface min-w-0 rounded-md p-5",
+        "text": null,
+        "rect": {
+          "x": 570,
+          "y": 190,
+          "width": 274,
+          "height": 131,
+          "top": 190,
+          "right": 844,
+          "bottom": 321,
+          "left": 570
+        }
+      },
+      {
+        "class": "surface min-w-0 rounded-md p-5",
+        "text": null,
+        "rect": {
+          "x": 856,
+          "y": 190,
+          "width": 274,
+          "height": 131,
+          "top": 190,
+          "right": 1130,
+          "bottom": 321,
+          "left": 856
+        }
+      },
+      {
+        "class": "surface min-w-0 rounded-md p-5",
+        "text": null,
+        "rect": {
+          "x": 1142,
+          "y": 190,
+          "width": 274,
+          "height": 131,
+          "top": 190,
+          "right": 1416,
+          "bottom": 321,
+          "left": 1142
+        }
+      },
+      {
+        "class": "surface min-w-0 rounded-md",
+        "text": null,
+        "rect": {
+          "x": 284,
+          "y": 341,
+          "width": 556,
+          "height": 365,
+          "top": 341,
+          "right": 840,
+          "bottom": 706,
+          "left": 284
+        }
+      },
+      {
+        "class": "surface min-w-0 rounded-md",
+        "text": null,
+        "rect": {
+          "x": 860,
+          "y": 341,
+          "width": 556,
+          "height": 365,
+          "top": 341,
+          "right": 1416,
+          "bottom": 706,
+          "left": 860
+        }
+      },
+      {
+        "class": "surface min-w-0 rounded-md",
+        "text": null,
+        "rect": {
+          "x": 284,
+          "y": 726,
+          "width": 1132,
+          "height": 750,
+          "top": 726,
+          "right": 1416,
+          "bottom": 1476,
+          "left": 284
+        }
+      }
+    ],
+    "charts": 0,
+    "ticks": 0,
+    "curves": []
+  },
+  {
+    "port": 3200,
+    "route": "/dashboard/executive",
+    "geometry": [
+      {
+        "class": "text-lg font-semibold",
+        "text": "Executive · Overview",
+        "rect": {
+          "x": 284,
+          "y": 118,
+          "width": 344,
+          "height": 28,
+          "top": 118,
+          "right": 628,
+          "bottom": 146,
+          "left": 284
+        }
+      },
+      {
+        "class": "surface min-w-0 rounded-md metric-card p-5",
+        "text": null,
+        "rect": {
+          "x": 284,
+          "y": 190,
+          "width": 274,
+          "height": 154,
+          "top": 190,
+          "right": 558,
+          "bottom": 344,
+          "left": 284
+        }
+      },
+      {
+        "class": "surface min-w-0 rounded-md metric-card p-5",
+        "text": null,
+        "rect": {
+          "x": 570,
+          "y": 190,
+          "width": 274,
+          "height": 154,
+          "top": 190,
+          "right": 844,
+          "bottom": 344,
+          "left": 570
+        }
+      },
+      {
+        "class": "surface min-w-0 rounded-md metric-card p-5",
+        "text": null,
+        "rect": {
+          "x": 856,
+          "y": 190,
+          "width": 274,
+          "height": 154,
+          "top": 190,
+          "right": 1130,
+          "bottom": 344,
+          "left": 856
+        }
+      },
+      {
+        "class": "surface min-w-0 rounded-md metric-card p-5",
+        "text": null,
+        "rect": {
+          "x": 1142,
+          "y": 190,
+          "width": 274,
+          "height": 154,
+          "top": 190,
+          "right": 1416,
+          "bottom": 344,
+          "left": 1142
+        }
+      },
+      {
+        "class": "surface min-w-0 rounded-md",
+        "text": null,
+        "rect": {
+          "x": 284,
+          "y": 364,
+          "width": 741.328125,
+          "height": 427,
+          "top": 364,
+          "right": 1025.328125,
+          "bottom": 791,
+          "left": 284
+        }
+      },
+      {
+        "class": "recharts-surface",
+        "text": null,
+        "rect": {
+          "x": 301,
+          "y": 453,
+          "width": 707,
+          "height": 280,
+          "top": 453,
+          "right": 1008,
+          "bottom": 733,
+          "left": 301
+        }
+      },
+      {
+        "class": "surface min-w-0 rounded-md",
+        "text": null,
+        "rect": {
+          "x": 1045.328125,
+          "y": 364,
+          "width": 370.65625,
+          "height": 427,
+          "top": 364,
+          "right": 1415.984375,
+          "bottom": 791,
+          "left": 1045.328125
+        }
+      },
+      {
+        "class": "recharts-surface",
+        "text": null,
+        "rect": {
+          "x": 1090.65625,
+          "y": 435,
+          "width": 280,
+          "height": 240,
+          "top": 435,
+          "right": 1370.65625,
+          "bottom": 675,
+          "left": 1090.65625
+        }
+      },
+      {
+        "class": "surface min-w-0 rounded-md",
+        "text": null,
+        "rect": {
+          "x": 284,
+          "y": 811,
+          "width": 741.328125,
+          "height": 403.5,
+          "top": 811,
+          "right": 1025.328125,
+          "bottom": 1214.5,
+          "left": 284
+        }
+      },
+      {
+        "class": "surface min-w-0 rounded-md",
+        "text": null,
+        "rect": {
+          "x": 1045.328125,
+          "y": 811,
+          "width": 370.65625,
+          "height": 403.5,
+          "top": 811,
+          "right": 1415.984375,
+          "bottom": 1214.5,
+          "left": 1045.328125
+        }
+      },
+      {
+        "class": "recharts-surface",
+        "text": null,
+        "rect": {
+          "x": 1062.328125,
+          "y": 882,
+          "width": 337,
+          "height": 230,
+          "top": 882,
+          "right": 1399.328125,
+          "bottom": 1112,
+          "left": 1062.328125
+        }
+      }
+    ],
+    "charts": 3,
+    "ticks": 21,
+    "curves": [
+      {
+        "d": "M42,215.951C51.464,213.221,60.928,210.492,70.391,207.762C79.855,205.033,89.319,202.304,98.783,199.574C108.246,196.845,117.71,194.115,127.174,191.386C136.638,188.656,146.101,185.927,155.565,183.198C165.029,180.468,174.493,177.739,183.957,175.009C193.42,172.28,202.884,169.551,212.348,166.821C221.812,164.092,231.275,161.362,240.739,158.633C250.203,155.904,259.667,153.174,269.13,150.445C278.594,147.715,288.058,144.986,297.522,142.256C306.986,139.527,316.449,136.798,325.913,134.068C335.377,131.339,344.841,128.609,354.304,125.88C363.768,123.151,373.232,120.421,382.696,117.692C392.159,114.962,401.623,112.233,411.087,109.504C420.551,106.774,430.014,104.045,439.478,101.315C448.942,98.586,458.406,95.856,467.87,93.127C477.333,90.398,486.797,87.668,496.261,84.939C505.725,82.209,515.188,79.48,524.652,76.751C534.116,74.021,543.58,71.292,553.043,68.562C562.507,65.833,571.971,63.104,581.435,60.374C590.899,57.645,600.362,54.915,609.826,52.186C619.29,49.456,628.754,46.727,638.217,43.998C647.681,41.268,657.145,38.539,666.609,35.809C676.072,33.08,685.536,30.351,695,27.621L695,250C685.536,250,676.072,250,666.609,250C657.145,250,647.681,250,638.217,250C628.754,250,619.29,250,609.826,250C600.362,250,590.899,250,581.435,250C571.971,250,562.507,250,553.043,250C543.58,250,534.116,250,524.652,250C515.188,250,505.725,250,496.261,250C486.797,250,477.333,250,467.87,250C458.406,250,448.942,250,439.478,250C430.014,250,420.551,250,411.087,250C401.623,250,392.159,250,382.696,250C373.232,250,363.768,250,354.304,250C344.841,250,335.377,250,325.913,250C316.449,250,306.986,250,297.522,250C288.058,250,278.594,250,269.13,250C259.667,250,250.203,250,240.739,250C231.275,250,221.812,250,212.348,250C202.884,250,193.42,250,183.957,250C174.493,250,165.029,250,155.565,250C146.101,250,136.638,250,127.174,250C117.71,250,108.246,250,98.783,250C89.319,250,79.855,250,70.391,250C60.928,250,51.464,250,42,250Z",
+        "stroke": null
+      },
+      {
+        "d": "M42,215.951C51.464,213.221,60.928,210.492,70.391,207.762C79.855,205.033,89.319,202.304,98.783,199.574C108.246,196.845,117.71,194.115,127.174,191.386C136.638,188.656,146.101,185.927,155.565,183.198C165.029,180.468,174.493,177.739,183.957,175.009C193.42,172.28,202.884,169.551,212.348,166.821C221.812,164.092,231.275,161.362,240.739,158.633C250.203,155.904,259.667,153.174,269.13,150.445C278.594,147.715,288.058,144.986,297.522,142.256C306.986,139.527,316.449,136.798,325.913,134.068C335.377,131.339,344.841,128.609,354.304,125.88C363.768,123.151,373.232,120.421,382.696,117.692C392.159,114.962,401.623,112.233,411.087,109.504C420.551,106.774,430.014,104.045,439.478,101.315C448.942,98.586,458.406,95.856,467.87,93.127C477.333,90.398,486.797,87.668,496.261,84.939C505.725,82.209,515.188,79.48,524.652,76.751C534.116,74.021,543.58,71.292,553.043,68.562C562.507,65.833,571.971,63.104,581.435,60.374C590.899,57.645,600.362,54.915,609.826,52.186C619.29,49.456,628.754,46.727,638.217,43.998C647.681,41.268,657.145,38.539,666.609,35.809C676.072,33.08,685.536,30.351,695,27.621",
+        "stroke": null
+      }
+    ]
+  },
+  {
+    "port": 3200,
+    "route": "/dashboard/analytics",
+    "geometry": [
+      {
+        "class": "text-lg font-semibold",
+        "text": "Analytics",
+        "rect": {
+          "x": 284,
+          "y": 118,
+          "width": 82,
+          "height": 28,
+          "top": 118,
+          "right": 366,
+          "bottom": 146,
+          "left": 284
+        }
+      },
+      {
+        "class": "surface min-w-0 rounded-md flex min-h-[175px] flex-col justify-between p-6",
+        "text": null,
+        "rect": {
+          "x": 284,
+          "y": 170,
+          "width": 265,
+          "height": 178,
+          "top": 170,
+          "right": 549,
+          "bottom": 348,
+          "left": 284
+        }
+      },
+      {
+        "class": "surface min-w-0 rounded-md flex min-h-[175px] flex-col justify-between p-6",
+        "text": null,
+        "rect": {
+          "x": 573,
+          "y": 170,
+          "width": 265,
+          "height": 178,
+          "top": 170,
+          "right": 838,
+          "bottom": 348,
+          "left": 573
+        }
+      },
+      {
+        "class": "surface min-w-0 rounded-md flex min-h-[175px] flex-col justify-between p-6",
+        "text": null,
+        "rect": {
+          "x": 862,
+          "y": 170,
+          "width": 265,
+          "height": 178,
+          "top": 170,
+          "right": 1127,
+          "bottom": 348,
+          "left": 862
+        }
+      },
+      {
+        "class": "surface min-w-0 rounded-md flex min-h-[175px] flex-col justify-between p-6",
+        "text": null,
+        "rect": {
+          "x": 1151,
+          "y": 170,
+          "width": 265,
+          "height": 178,
+          "top": 170,
+          "right": 1416,
+          "bottom": 348,
+          "left": 1151
+        }
+      },
+      {
+        "class": "surface min-w-0 rounded-md lg:col-span-2",
+        "text": null,
+        "rect": {
+          "x": 284,
+          "y": 372,
+          "width": 746.65625,
+          "height": 479.5,
+          "top": 372,
+          "right": 1030.65625,
+          "bottom": 851.5,
+          "left": 284
+        }
+      },
+      {
+        "class": "recharts-surface",
+        "text": null,
+        "rect": {
+          "x": 305,
+          "y": 465,
+          "width": 705,
+          "height": 330,
+          "top": 465,
+          "right": 1010,
+          "bottom": 795,
+          "left": 305
+        }
+      },
+      {
+        "class": "surface min-w-0 rounded-md",
+        "text": null,
+        "rect": {
+          "x": 1054.65625,
+          "y": 372,
+          "width": 361.34375,
+          "height": 479.5,
+          "top": 372,
+          "right": 1416,
+          "bottom": 851.5,
+          "left": 1054.65625
+        }
+      },
+      {
+        "class": "recharts-surface",
+        "text": null,
+        "rect": {
+          "x": 1095.328125,
+          "y": 465,
+          "width": 280,
+          "height": 215,
+          "top": 465,
+          "right": 1375.328125,
+          "bottom": 680,
+          "left": 1095.328125
+        }
+      },
+      {
+        "class": "surface min-w-0 rounded-md",
+        "text": null,
+        "rect": {
+          "x": 284,
+          "y": 875.5,
+          "width": 554,
+          "height": 465,
+          "top": 875.5,
+          "right": 838,
+          "bottom": 1340.5,
+          "left": 284
+        }
+      },
+      {
+        "class": "surface min-w-0 rounded-md",
+        "text": null,
+        "rect": {
+          "x": 862,
+          "y": 875.5,
+          "width": 554,
+          "height": 465,
+          "top": 875.5,
+          "right": 1416,
+          "bottom": 1340.5,
+          "left": 862
+        }
+      }
+    ],
+    "charts": 2,
+    "ticks": 19,
+    "curves": [
+      {
+        "d": "M69.208,121.771C87.347,110.029,105.486,98.286,123.625,98.286C141.764,98.286,159.903,113.943,178.042,113.943C196.181,113.943,214.319,90.457,232.458,90.457C250.597,90.457,268.736,95.676,286.875,98.286C305.014,100.895,323.153,102.2,341.292,106.114C359.431,110.029,377.569,121.771,395.708,121.771C413.847,121.771,431.986,119.162,450.125,113.943C468.264,108.724,486.403,90.457,504.542,90.457C522.681,90.457,540.819,94.371,558.958,98.286C577.097,102.2,595.236,113.943,613.375,113.943C631.514,113.943,649.653,108.071,667.792,102.2",
+        "stroke": null
+      }
+    ]
+  },
+  {
+    "port": 3200,
+    "route": "/library/charts/line",
+    "geometry": [
+      {
+        "class": "text-lg font-semibold",
+        "text": "Line Chart",
+        "rect": {
+          "x": 284,
+          "y": 118,
+          "width": 306,
+          "height": 28,
+          "top": 118,
+          "right": 590,
+          "bottom": 146,
+          "left": 284
+        }
+      },
+      {
+        "class": "surface min-w-0 rounded-md",
+        "text": null,
+        "rect": {
+          "x": 284,
+          "y": 244,
+          "width": 1132,
+          "height": 469,
+          "top": 244,
+          "right": 1416,
+          "bottom": 713,
+          "left": 284
+        }
+      },
+      {
+        "class": "recharts-surface",
+        "text": null,
+        "rect": {
+          "x": 309,
+          "y": 338,
+          "width": 1082,
+          "height": 350,
+          "top": 338,
+          "right": 1391,
+          "bottom": 688,
+          "left": 309
+        }
+      },
+      {
+        "class": "recharts-surface",
+        "text": null,
+        "rect": {
+          "x": 754,
+          "y": 666.5,
+          "width": 14,
+          "height": 14,
+          "top": 666.5,
+          "right": 768,
+          "bottom": 680.5,
+          "left": 754
+        }
+      },
+      {
+        "class": "recharts-surface",
+        "text": null,
+        "rect": {
+          "x": 864,
+          "y": 666.5,
+          "width": 14,
+          "height": 14,
+          "top": 666.5,
+          "right": 878,
+          "bottom": 680.5,
+          "left": 864
+        }
+      },
+      {
+        "class": "surface min-w-0 rounded-md mt-5 p-4",
+        "text": null,
+        "rect": {
+          "x": 284,
+          "y": 733,
+          "width": 1132,
+          "height": 50,
+          "top": 733,
+          "right": 1416,
+          "bottom": 783,
+          "left": 284
+        }
+      }
+    ],
+    "charts": 3,
+    "ticks": 17,
+    "curves": [
+      {
+        "d": "M65,227.943L157,194.914L249,209.364L341,155.693L433,172.207L525,120.6L617,137.114L709,102.021L801,145.371L893,77.25L985,91.7L1077,38.029",
+        "stroke": null
+      },
+      {
+        "d": "M65,242.393L157,232.071L249,221.75L341,211.429L433,201.107L525,190.786L617,180.464L709,170.143L801,159.821L893,149.5L985,139.179L1077,128.857",
+        "stroke": null
+      }
+    ]
+  },
+  {
+    "port": 3200,
+    "route": "/commerce/products",
+    "geometry": [
+      {
+        "class": "text-lg font-semibold",
+        "text": "Products",
+        "rect": {
+          "x": 284,
+          "y": 118,
+          "width": 423,
+          "height": 28,
+          "top": 118,
+          "right": 707,
+          "bottom": 146,
+          "left": 284
+        }
+      },
+      {
+        "class": "surface min-w-0 rounded-md density-card p-5",
+        "text": null,
+        "rect": {
+          "x": 284,
+          "y": 190,
+          "width": 274,
+          "height": 94,
+          "top": 190,
+          "right": 558,
+          "bottom": 284,
+          "left": 284
+        }
+      },
+      {
+        "class": "surface min-w-0 rounded-md density-card p-5",
+        "text": null,
+        "rect": {
+          "x": 570,
+          "y": 190,
+          "width": 274,
+          "height": 94,
+          "top": 190,
+          "right": 844,
+          "bottom": 284,
+          "left": 570
+        }
+      },
+      {
+        "class": "surface min-w-0 rounded-md density-card p-5",
+        "text": null,
+        "rect": {
+          "x": 856,
+          "y": 190,
+          "width": 274,
+          "height": 94,
+          "top": 190,
+          "right": 1130,
+          "bottom": 284,
+          "left": 856
+        }
+      },
+      {
+        "class": "surface min-w-0 rounded-md density-card p-5",
+        "text": null,
+        "rect": {
+          "x": 1142,
+          "y": 190,
+          "width": 274,
+          "height": 94,
+          "top": 190,
+          "right": 1416,
+          "bottom": 284,
+          "left": 1142
+        }
+      },
+      {
+        "class": "surface hidden flex-wrap items-end gap-3 p-4 md:flex",
+        "text": null,
+        "rect": {
+          "x": 284,
+          "y": 304,
+          "width": 1132,
+          "height": 100,
+          "top": 304,
+          "right": 1416,
+          "bottom": 404,
+          "left": 284
+        }
+      },
+      {
+        "class": "surface overflow-hidden",
+        "text": null,
+        "rect": {
+          "x": 284,
+          "y": 420,
+          "width": 1132,
+          "height": 795,
+          "top": 420,
+          "right": 1416,
+          "bottom": 1215,
+          "left": 284
+        }
+      },
+      {
+        "class": "surface absolute end-0 top-10 z-20 min-w-48 space-y-2 p-3",
+        "text": null,
+        "rect": {
+          "x": 889,
+          "y": 514.5,
+          "width": 192,
+          "height": 267,
+          "top": 514.5,
+          "right": 1081,
+          "bottom": 781.5,
+          "left": 889
+        }
+      }
+    ],
+    "charts": 0,
+    "ticks": 0,
+    "curves": []
+  }
+]
